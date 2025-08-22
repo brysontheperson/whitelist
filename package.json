@@ -1,0 +1,23 @@
+{
+  "name": "appblocker",
+  "version": "1.0.0",
+  "description": "Windows app blocker using Electron, blocking websites and applications except whitelisted ones.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "jest"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chokidar": "^3.5.3",
+    "node-machine-id": "^1.1.12",
+    "win32-api": "^3.1.0"
+  },
+  "devDependencies": {
+    "electron": "^25.3.1",
+    "jest": "^29.6.1"
+  },
+  "keywords": []
+}
